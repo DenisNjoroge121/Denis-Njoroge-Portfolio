@@ -62,7 +62,7 @@ export default function Hero() {
         
         {/* GitHub Icon (Inline SVG) */}
         <a
-          href="https://github.com"
+          href="https://github.com/DenisNjoroge121/"
           target="_blank"
           rel="noreferrer"
           className="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800 text-slate-400 hover:text-teal-400 hover:border-teal-500/30 transition-all"
@@ -75,7 +75,7 @@ export default function Hero() {
 
         {/* LinkedIn Icon (Inline SVG) */}
         <a
-          href="https://linkedin.com"
+          href="www.linkedin.com/in/denis-njoroge-121d"
           target="_blank"
           rel="noreferrer"
           className="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800 text-slate-400 hover:text-teal-400 hover:border-teal-500/30 transition-all"

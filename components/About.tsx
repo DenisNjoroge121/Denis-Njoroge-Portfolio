@@ -26,29 +26,29 @@ const educationData: EducationItem[] = [
     institution: "Kenyatta University",
     period: "2025 — Present",
     isOngoing: true,
-    coursework: "Database Management Systems (PostgreSQL), Data Communication Technologies, Calculus, Discrete Mathematics, Software Engineering Principles, and AI Foundations.",
+    coursework: "Data Structures & Algorithms, Database Management Systems (PostgreSQL), Software Architecture, Object-Oriented Design, and Data Communications.",
   },
   {
-    degree: "Diploma / Certificate Title 2",
-    institution: "Institution Name",
+    degree: "Software Development",
+    institution: "Power Learning Project (PLP)",
     period: "2026 — Present",
     isOngoing: true,
-    coursework: "Add key topics, tools, or subjects studied here.",
+    coursework: "Design, code and deploy funcional application, Modern Frameworks like React or Angular, Database Systems (PostgreSQL), Engineering tools like Git and GitHub for version control, and Backend using Node.js",
   },
-  {
-    degree: "Diploma / Certificate Title 3",
-    institution: "Institution Name",
-    period: "2026 — Present",
-    isOngoing: true,
-    coursework: "Add key topics, tools, or subjects studied here.",
-  },
-  {
-    degree: "Prior Qualification / High School",
-    institution: "School Name",
-    period: "Completed Year",
-    isOngoing: false,
-    coursework: "Key achievements or focus areas.",
-  },
+  // {
+  //   degree: "Diploma / Certificate Title 3",
+  //   institution: "Institution Name",
+  //   period: "2026 — Present",
+  //   isOngoing: true,
+  //   coursework: "Add key topics, tools, or subjects studied here.",
+  // },
+  // {
+  //   degree: "Prior Qualification / High School",
+  //   institution: "School Name",
+  //   period: "Completed Year",
+  //   isOngoing: false,
+  //   coursework: "Key achievements or focus areas.",
+  // },
 ];
 
 // 2. UPDATE YOUR CERTIFICATES HERE
@@ -61,19 +61,19 @@ const certificatesData: Certificate[] = [
     skills: ["PostgreSQL", "Relational Design", "SQL Queries", "Data Modeling"],
   },
   {
-    title: "Certificate Title 2",
-    issuer: "Issuer / Platform (e.g., Coursera, Udemy)",
-    date: "2026",
-    credentialUrl: "https://example.com",
-    skills: ["Skill 1", "Skill 2", "Skill 3"],
+    title: "Introduction to Cybersecurity",
+    issuer: "Cisco Networking Academy",
+    date: "2025",
+    credentialUrl: "https://cisco.com",
+    skills: ["Access Control", "Threat Landscape", "CIA Triad"],
   },
-  {
-    title: "Certificate Title 3",
-    issuer: "Issuer / Platform",
-    date: "2026",
-    credentialUrl: "https://example.com",
-    skills: ["Skill 1", "Skill 2", "Skill 3"],
-  },
+  // {
+  //   title: "Certificate Title 3",
+  //   issuer: "Issuer / Platform",
+  //   date: "2026",
+  //   credentialUrl: "https://example.com",
+  //   skills: ["Skill 1", "Skill 2", "Skill 3"],
+  // },
 ];
 
 export default function About() {
@@ -81,11 +81,11 @@ export default function About() {
     {
       year: "Present",
       role: "Full-Stack & Mobile Developer",
-      description: "Building scalable web platforms using React, Next.js, and Django, alongside cross-platform mobile apps with React Native.",
+      description: "Building scalable web platforms using React, Next.js, and Django, alongside cross-platform mobile apps with React Native (Expo).",
       icon: Code2,
     },
     {
-      year: "2026",
+      year: "2026 to present",
       role: "Computer Science Studies",
       description: "Deepening core computer science concepts including database design, networking, algorithms, and software engineering.",
       icon: GraduationCap,
@@ -148,7 +148,7 @@ export default function About() {
                   </div>
                   <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-900 border border-slate-800">
                     <Terminal className="w-3.5 h-3.5 text-teal-400" />
-                    <span>React • Django • Next.js</span>
+                    <span>React • Django • Next.js • Expo</span>
                   </div>
                 </div>
               </div>

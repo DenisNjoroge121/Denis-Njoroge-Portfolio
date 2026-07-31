@@ -27,15 +27,15 @@ const featuredProjects: Project[] = [
     id: 'novara',
     title: 'Novara — Business Management System',
     description: 'A full-stack business management platform designed to centralize operations, automate routine tasks, and deliver AI-driven analytics.',
-    tags: ['React', 'Node.js', 'PostgreSQL', 'AWS', 'Vercel'],
-    githubUrl: 'https://github.com/yourusername/novara',
-    liveUrl: 'https://novara-app.com', // Replace with your live URL if available
+    tags: ['React', 'Node.js', 'PostgreSQL', 'Vercel'],
+    githubUrl: 'https://github.com/DenisNjoroge121/novara-ops-hub.git',
+    liveUrl: 'https://novarabms.lovable.app', // Replace with your live URL if available
     caseStudy: {
       title: 'Novara — Business Management System',
       subtitle: 'Architecting a scalable, multi-tenant platform for streamlined business operations.',
       role: 'Full-Stack Developer & Technical Lead',
       duration: '4 Months',
-      techStack: ['React', 'Node.js', 'PostgreSQL', 'AWS', 'Vercel', 'OpenAI API'],
+      techStack: ['React', 'Node.js', 'PostgreSQL', 'Vercel', 'OpenAI API'],
       problem: 'Small and medium-sized enterprises often rely on fragmented tools for inventory, user management, and sales reporting, leading to data silos and manual overhead.',
       solution: 'Engineered a unified SaaS platform featuring a modular backend architecture, persistent relational database storage, and integrated AI capabilities to summarize business metrics automatically.',
       architectureHighlights: [
@@ -53,35 +53,35 @@ const featuredProjects: Project[] = [
           solution: 'Indexed primary and foreign key lookups in PostgreSQL and restructured complex join queries, cutting dashboard loading times drastically.'
         }
       ],
-      githubUrl: 'https://github.com/yourusername/novara',
-      liveUrl: 'https://novara-app.com'
+      githubUrl: 'https://github.com/DenisNjoroge121/novara-ops-hub.git',
+      liveUrl: 'https://novarabms.lovable.app'
     }
   },
   {
     id: 'civicping',
-    title: 'CivicPing — Civic Reporting Application',
-    description: 'An automated civic reporting tool built with Telegram bot capabilities and LLM-assisted context extraction for rapid issue logging.',
-    tags: ['Node.js', 'MCP SDK', 'OpenAI API', 'Telegraf', 'Telegram API'],
-    githubUrl: 'https://github.com/yourusername/civicping',
+    title: 'Novara Budget App — Managing your funds application',
+    description: 'An application used to plan your monthly income by putting the expenses you incure everyday, the amount of money you save (includes ticking if saved and have a timeline for reaching the target) and it does the balance.',
+    tags: ['Node.js', 'React Native', 'Expo', 'Supabase'],
+    githubUrl: 'https://github.com/DenisNjoroge121/Novara-BudgetApp.git',
     caseStudy: {
-      title: 'CivicPing — Civic Reporting Application',
-      subtitle: 'Leveraging Model Context Protocol and Telegram bots for instant community issue tracking.',
+      title: 'Novara Budget App — Managing your funds application',
+      subtitle: 'Managing your funds in a smarter way.',
       role: 'Backend & AI Engineer',
       duration: '2 Months',
-      techStack: ['Node.js', 'Model Context Protocol (MCP) SDK', 'OpenAI API', 'Telegraf'],
-      problem: 'Citizens face friction when reporting local infrastructure issues (like potholes or water outages) through traditional web forms, leading to underreported civic problems.',
-      solution: 'Built a chat-first reporting pipeline through Telegram that allows users to send unstructured messages, photos, or locations, using LLM context processing to extract structured event data.',
+      techStack: ['Node.js', 'React Native', 'Expo', 'Supabase'],
+      problem: 'Many times people just use money without planning it which sometimes leads to overspending and not being aware how the money was spent.',
+      solution: 'Built an application that help users to put their monthly income and add expenses, their savings and goals to achieve when saving or investing their money. The app comes with timeline that user can put to accomplish their goals by suggesting amount of money they will be saving per week/month.',
       architectureHighlights: [
-        'Implemented the Model Context Protocol (MCP) SDK to standardize tool calling and context propagation between the user interface and backend models.',
-        'Constructed a resilient event handler using Telegraf to process asynchronous incoming Telegram webhook payloads without dropping incoming reports.'
+        'Engineered a real-time ledger calculation engine in Node.js to instantaneously balance monthly income against dynamic, daily expense inputs.',
+        'Integrated Supabase real-time listeners and database triggers to track savings goal updates and dynamically recalculate timeline progress.'
       ],
       keyChallengesAndWins: [
         {
-          challenge: 'Extracting clean, structured JSON data (location, category, severity) from messy, conversational chat inputs.',
-          solution: 'Configured OpenAI function calling and strict JSON Schema validation rules to guarantee valid payload structures before database insertion.'
+          challenge: 'Calculating precise, adaptive weekly and monthly savings recommendations when user income or daily expense habits fluctuated unexpectedly.',
+          solution: 'Developed a time-series forecasting algorithm that recalibrates the required savings velocity based on historical spending leakages and remaining timeline days.'
         }
       ],
-      githubUrl: 'https://github.com/yourusername/civicping'
+      githubUrl: 'https://github.com/DenisNjoroge121/Novara-BudgetApp.git'
     }
   },
   {
